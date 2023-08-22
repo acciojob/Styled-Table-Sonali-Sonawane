@@ -1,15 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<style>
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+<h2>COVID-19 Statistics by Country</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+      <th>Total Recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USA</td>
+      <td>5,123,456</td>
+      <td>95,678</td>
+      <td>4,000,000</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>4,987,654</td>
+      <td>75,432</td>
+      <td>4,600,000</td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td>3,456,789</td>
+      <td>112,345</td>
+      <td>3,100,000</td>
+    </tr>
+    <tr>
+      <td>Russia</td>
+      <td>2,345,678</td>
+      <td>28,765</td>
+      <td>2,100,000</td>
+    </tr>
+    <tr>
+      <td>China</td>
+      <td>90,765</td>
+      <td>4,678</td>
+      <td>85,000</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
